@@ -1,7 +1,7 @@
 # BitGN PAC Agent — Project Brief
 
-AI agent for the BitGN Personal Agent Challenge (PAC). Hackathon winner — on-site
-PAC 2026, AI Factory Vienna, 11 April 2026. Code is published as reference.
+AI agent for the BitGN Personal Agent Challenge (PAC). First place at the Vienna hub
+(PAC 2026, AI Factory Vienna, 11 April 2026). Code is published as reference.
 
 See [`README.md`](README.md) for the full architectural overview, defense-layer
 documentation, and setup instructions.

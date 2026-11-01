@@ -10,10 +10,10 @@
 
 An autonomous AI agent built for the [**BitGN Personal Agent Challenge (PAC)**](https://bitgn.com/challenge/PAC) — a deterministic, side-effect-scored benchmark for trustworthy personal agents, hosted on-site in Vienna on April 11, 2026 by [AI Factory Austria](https://ai-at.eu/en/) in collaboration with [AI Impact Mission](https://ai-mission.eu/).
 
-> This repository is the 1st-place entry for the on-site PAC 2026 run in Vienna, by [Bernhard Götzendorfer](https://www.gotzendorfer.at/) ([@Kanevry](https://github.com/Kanevry)). The code is published so the approach — soft SGR + layered hardening + native tool calling — can be studied and reproduced.
+> This repository is my entry for the BitGN Personal Agent Challenge (April 2026), first place at the Vienna hub, by [Bernhard Götzendorfer](https://www.gotzendorfer.at/) ([@Kanevry](https://github.com/Kanevry)). The code is published so the approach — soft SGR + layered hardening + native tool calling — can be studied and reproduced.
 
 <p align="center">
-  <img src="assets/certificate.jpg" alt="1st place certificate — BitGN PAC 2026, AI Factory Vienna, April 11, 2026" width="55%" />
+  <img src="assets/certificate.jpg" alt="Certificate: first place at the Vienna hub, BitGN PAC 2026, AI Factory Vienna, April 11, 2026" width="55%" />
 </p>
 
 The agent operates inside a sandboxed virtual machine (a file-based personal-knowledge workspace resembling an Obsidian vault) and solves natural-language tasks by reading, writing, and organising files through a small, well-defined ConnectRPC tool API — while defending itself against prompt injection, phishing, PII-exfiltration, and path-traversal attacks embedded in the very files it reads.
@@ -336,7 +336,7 @@ Metric writes are fire-and-forget and never throw into the agent path. Disable w
 ## Credits & Built With
 
 - **Challenge**: [BitGN PAC](https://bitgn.com/challenge/PAC), designed by [Rinat Abdullin](https://abdullin.com/).
-- **Venue & hosts**: [AI Factory Austria](https://ai-at.eu/en/) hosted the on-site hackathon in Vienna on April 11, 2026, in collaboration with [AI Impact Mission](https://ai-mission.eu/). The 1st-place certificate is signed by **Felix Krause** (Head of AI Factory Austria), **Rinat Abdullin** (Challenge Design & Founder, BitGN), and **Markus Keiblinger** (President, AIM International).
+- **Venue & hosts**: [AI Factory Austria](https://ai-at.eu/en/) hosted the on-site hackathon in Vienna on April 11, 2026, in collaboration with [AI Impact Mission](https://ai-mission.eu/). The certificate for first place at the Vienna hub is signed by **Felix Krause** (Head of AI Factory Austria), **Rinat Abdullin** (Challenge Design & Founder, BitGN), and **Markus Keiblinger** (President, AIM International).
 - **Scaffolding**: Built on top of [**session-orchestrator**](https://github.com/Kanevry/session-orchestrator) — my Claude Code harness for wave-based AI development. Planning, parallel implementation, inter-wave quality gates, discovery probes, session retros. Three-hour build windows are only survivable when the workflow is already routine.
 - **Inspiration**: [Schema-Guided Reasoning](https://abdullin.com/schema-guided-reasoning/), also by Rinat.
 - **Models**: Claude Opus 4.6 and GPT-4.1, driven via [Vercel AI SDK v6](https://ai-sdk.dev/).
